@@ -49,8 +49,17 @@ const CompressorHero = () => {
   return (
     <section 
       id="inicio" 
-      className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-gradient-to-br from-compressor-white via-compressor-light-gray to-compressor-white"
+      className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden"
+      style={{
+        backgroundImage: `url('/lovable-uploads/e57dd087-8cc9-499a-92f6-37b1c9083392.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
+      }}
     >
+      {/* Overlay para melhor contraste */}
+      <div className="absolute inset-0 bg-compressor-navy-blue/80"></div>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -78,22 +87,22 @@ const CompressorHero = () => {
           {/* Título principal */}
           <h1 
             ref={el => elementsRef.current[1] = el}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 opacity-0 leading-tight text-compressor-navy-blue"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 opacity-0 leading-tight text-white"
             style={{ animationDelay: '400ms' }}
           >
             ESPECIALISTA EM
             <br />
-            <span className="text-compressor-light-navy">AR COMPRIMIDO</span>
+            <span className="text-white">AR COMPRIMIDO</span>
           </h1>
           
           {/* Subtítulo */}
           <p 
             ref={el => elementsRef.current[2] = el}
-            className="text-compressor-gray text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto mb-8 opacity-0 leading-relaxed"
+            className="text-white/90 text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto mb-8 opacity-0 leading-relaxed"
             style={{ animationDelay: '600ms' }}
           >
             Profissionais qualificados, equipamentos modernos e parcerias com os melhores fornecedores do Brasil. 
-            <span className="block mt-2 font-semibold text-compressor-navy-blue">
+            <span className="block mt-2 font-semibold text-white">
               Atlas Copco • Chicago Pneumatic • Schulz • Ingersoll Rand
             </span>
           </p>
@@ -127,16 +136,16 @@ const CompressorHero = () => {
             style={{ animationDelay: '1000ms' }}
           >
             <div className="text-center">
-              <div className="text-2xl font-bold text-compressor-navy-blue mb-2">+15</div>
-              <div className="text-compressor-gray">Anos de Experiência</div>
+              <div className="text-2xl font-bold text-white mb-2">+15</div>
+              <div className="text-white/80">Anos de Experiência</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-compressor-navy-blue mb-2">24h</div>
-              <div className="text-compressor-gray">Atendimento Emergencial</div>
+              <div className="text-2xl font-bold text-white mb-2">24h</div>
+              <div className="text-white/80">Atendimento Emergencial</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-compressor-navy-blue mb-2">100%</div>
-              <div className="text-compressor-gray">Garantia nos Serviços</div>
+              <div className="text-2xl font-bold text-white mb-2">100%</div>
+              <div className="text-white/80">Garantia nos Serviços</div>
             </div>
           </div>
         </div>
@@ -144,7 +153,7 @@ const CompressorHero = () => {
       
       <button
         onClick={() => scrollToSection('sobre')}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-compressor-gray hover:text-compressor-navy-blue transition-colors duration-300 animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80 hover:text-white transition-colors duration-300 animate-bounce"
         aria-label="Scroll para próxima seção"
       >
         <ArrowDown size={32} />
