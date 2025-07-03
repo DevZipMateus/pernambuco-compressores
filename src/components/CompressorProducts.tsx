@@ -88,15 +88,24 @@ const CompressorProducts = () => {
     <section id="produtos" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 
-            ref={el => elementsRef.current[0] = el}
-            className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 opacity-0 text-compressor-navy-blue"
-            style={{ animationDelay: '200ms' }}
-          >
-            PRODUTOS E SERVIÇOS
-          </h2>
+          <div className="flex items-center justify-center gap-4 sm:gap-6 mb-6">
+            <img 
+              src="/lovable-uploads/dbf858a4-fb00-440f-b215-d2d352dd76ff.png" 
+              alt="Técnico especializado" 
+              className="h-16 sm:h-20 lg:h-24 w-auto object-contain opacity-0"
+              ref={el => elementsRef.current[0] = el}
+              style={{ animationDelay: '100ms' }}
+            />
+            <h2 
+              ref={el => elementsRef.current[1] = el}
+              className="text-3xl sm:text-4xl md:text-5xl font-bold opacity-0 text-compressor-navy-blue"
+              style={{ animationDelay: '200ms' }}
+            >
+              PRODUTOS E SERVIÇOS
+            </h2>
+          </div>
           <p 
-            ref={el => elementsRef.current[1] = el}
+            ref={el => elementsRef.current[2] = el}
             className="text-compressor-gray text-lg sm:text-xl max-w-3xl mx-auto opacity-0"
             style={{ animationDelay: '400ms' }}
           >
@@ -106,7 +115,7 @@ const CompressorProducts = () => {
         </div>
 
         <div 
-          ref={el => elementsRef.current[2] = el}
+          ref={el => elementsRef.current[3] = el}
           className="max-w-4xl mx-auto opacity-0"
           style={{ animationDelay: '600ms' }}
         >
@@ -151,7 +160,7 @@ const CompressorProducts = () => {
         </div>
 
         <div 
-          ref={el => elementsRef.current[3] = el}
+          ref={el => elementsRef.current[4] = el}
           className="text-center mt-12 opacity-0"
           style={{ animationDelay: '800ms' }}
         >

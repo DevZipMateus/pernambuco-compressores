@@ -8,9 +8,16 @@ const CompressorLocation = () => {
         <div className="max-w-6xl mx-auto">
           
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-compressor-navy-blue mb-6">
-              Nossa Localização
-            </h2>
+            <div className="flex items-center justify-center gap-4 sm:gap-6 mb-6">
+              <img 
+                src="/lovable-uploads/dbf858a4-fb00-440f-b215-d2d352dd76ff.png" 
+                alt="Técnico especializado" 
+                className="h-16 sm:h-20 lg:h-24 w-auto object-contain"
+              />
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-compressor-navy-blue">
+                Nossa Localização
+              </h2>
+            </div>
             <div className="w-24 h-1 bg-compressor-navy-blue mx-auto mb-8"></div>
           </div>
 
