@@ -117,7 +117,7 @@ const CompressorHero = () => {
               onClick={handleWhatsAppClick}
               className="bg-compressor-navy-blue hover:bg-compressor-dark-navy text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center gap-3"
             >
-              <MessageCircle size={24} />
+              <img src="/lovable-uploads/b875cc30-de37-4046-a821-0499fc8960a1.png" alt="WhatsApp" className="w-6 h-6" />
               FALE NO WHATSAPP
             </button>
             <button 

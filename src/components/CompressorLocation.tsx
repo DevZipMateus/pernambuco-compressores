@@ -62,8 +62,9 @@ const CompressorLocation = () => {
               <div className="space-y-4">
                 <button 
                   onClick={() => window.open('https://wa.me/558131251484', '_blank')}
-                  className="w-full bg-compressor-navy-blue text-white py-3 rounded-lg font-semibold hover:bg-compressor-dark-navy transition-colors"
+                  className="w-full bg-compressor-navy-blue text-white py-3 rounded-lg font-semibold hover:bg-compressor-dark-navy transition-colors flex items-center justify-center gap-2"
                 >
+                  <img src="/lovable-uploads/b875cc30-de37-4046-a821-0499fc8960a1.png" alt="WhatsApp" className="w-5 h-5" />
                   WhatsApp
                 </button>
                 <button 

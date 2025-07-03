@@ -136,8 +136,9 @@ const CompressorServices = () => {
               </p>
               <button 
                 onClick={() => window.open('https://wa.me/558131251484?text=Olá!%20Gostaria%20de%20um%20orçamento%20personalizado%20para%20os%20serviços%20da%20PERNAMBUCO%20COMPRESSORES.', '_blank')}
-                className="bg-white text-compressor-navy-blue px-8 py-3 rounded-lg font-semibold hover:bg-compressor-light-gray transition-colors duration-300"
+                className="bg-white text-compressor-navy-blue px-8 py-3 rounded-lg font-semibold hover:bg-compressor-light-gray transition-colors duration-300 flex items-center justify-center gap-2"
               >
+                <img src="/lovable-uploads/b875cc30-de37-4046-a821-0499fc8960a1.png" alt="WhatsApp" className="w-5 h-5" />
                 Solicitar Orçamento
               </button>
             </div>
