@@ -26,6 +26,7 @@ const CompressorNavBar = () => {
     { label: 'Início', id: 'inicio' },
     { label: 'Sobre', id: 'sobre' },
     { label: 'Serviços', id: 'servicos' },
+    { label: 'Produtos', id: 'produtos' },
     { label: 'Depoimentos', id: 'depoimentos' },
     { label: 'Localização', id: 'localizacao' },
     { label: 'Contato', id: 'contato' },
@@ -35,8 +36,8 @@ const CompressorNavBar = () => {
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200' 
-          : 'bg-white/90 backdrop-blur-sm'
+          ? 'bg-gray-600/95 backdrop-blur-md shadow-lg border-b border-gray-400' 
+          : 'bg-gray-500/90 backdrop-blur-sm'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,17 +60,17 @@ const CompressorNavBar = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary font-medium transition-colors duration-200 relative group"
+                className="text-white hover:text-gray-200 font-medium transition-colors duration-200 relative group"
               >
                 {item.label}
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
+            className="lg:hidden p-2 text-white hover:text-gray-200 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle mobile menu"
           >
@@ -79,12 +80,12 @@ const CompressorNavBar = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white border-t border-gray-200 py-4">
+          <div className="lg:hidden bg-gray-600 border-t border-gray-400 py-4">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left px-4 py-3 text-foreground hover:text-primary hover:bg-accent transition-colors duration-200"
+                className="block w-full text-left px-4 py-3 text-white hover:text-gray-200 hover:bg-gray-500 transition-colors duration-200"
               >
                 {item.label}
               </button>

@@ -4,6 +4,7 @@ import CompressorNavBar from '@/components/CompressorNavBar';
 import CompressorHero from '@/components/CompressorHero';
 import CompressorAbout from '@/components/CompressorAbout';
 import CompressorServices from '@/components/CompressorServices';
+import CompressorProducts from '@/components/CompressorProducts';
 import CompressorTestimonials from '@/components/CompressorTestimonials';
 import CompressorLocation from '@/components/CompressorLocation';
 import CompressorContact from '@/components/CompressorContact';
@@ -27,6 +28,7 @@ const Index = () => {
         <CompressorHero />
         <CompressorAbout />
         <CompressorServices />
+        <CompressorProducts />
         <CompressorTestimonials />
         <CompressorLocation />
         <CompressorContact />
