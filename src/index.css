@@ -7,26 +7,28 @@
 
 @layer base {
   :root {
-    /* Cores primárias - tons de azul e cinza */
-    --background: 215 25% 97%;
-    --foreground: 215 60% 15%;
+    /* Cores primárias - PERNAMBUCO COMPRESSORES */
+    --background: 0 0% 100%;
+    --foreground: 220 40% 15%;
     --card: 0 0% 100%;
-    --card-foreground: 215 60% 15%;
+    --card-foreground: 220 40% 15%;
 
     /* Cores secundárias */
-    --secondary: 210 30% 94%;
-    --secondary-foreground: 215 40% 30%;
-    --muted: 210 30% 94%;
-    --muted-foreground: 215 16% 46%;
-    --accent: 0 84% 60%;
-    --accent-foreground: 0 0% 100%;
+    --secondary: 220 20% 96%;
+    --secondary-foreground: 220 30% 25%;
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 15% 45%;
+    --accent: 220 15% 92%;
+    --accent-foreground: 220 40% 15%;
     --popover: 0 0% 100%;
-    --popover-foreground: 215 60% 15%;
+    --popover-foreground: 220 40% 15%;
 
-    /* Cores de contraste */
-    --primary: 215 70% 45%;
+    /* Cores de contraste - Azul marinho da logo */
+    --primary: 220 85% 25%;
     --primary-foreground: 0 0% 100%;
-    --tech-green: 142 70% 45%;
+    --navy-blue: 220 85% 25%;
+    --light-navy: 220 60% 35%;
+    --dark-navy: 220 90% 15%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
     

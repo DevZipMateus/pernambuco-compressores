@@ -23,7 +23,7 @@ const WhatsAppButton = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5555999887766?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20TechHelp%20Soluções.', '_blank');
+    window.open('https://wa.me/558131251484?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20PERNAMBUCO%20COMPRESSORES.', '_blank');
   };
 
   return (
