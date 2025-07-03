@@ -40,7 +40,7 @@ const WhatsAppButton = () => {
     >
       <div className={`absolute -inset-3 bg-tech-green/30 rounded-full ${isPulsing ? 'animate-ping' : 'opacity-0'}`}></div>
       <img 
-        src="/lovable-uploads/90d99fc5-2fe3-4a3b-a15c-64bc0c7f8cef.png" 
+        src="/lovable-uploads/b875cc30-de37-4046-a821-0499fc8960a1.png" 
         alt="WhatsApp" 
         className="w-10 h-10 relative z-10"
       />
