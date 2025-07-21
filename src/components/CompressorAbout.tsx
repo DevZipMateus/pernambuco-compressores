@@ -73,7 +73,7 @@ const CompressorAbout = () => {
 
             {/* Image */}
             <div className="relative">
-              <div className="rounded-lg p-8 text-center" style={{ backgroundColor: '#0A2E76' }}>
+              <div className="rounded-lg p-8 text-center bg-black">
                 <img 
                   src="/lovable-uploads/221fca45-5716-4c15-a43e-d0fd56fe493a.png" 
                   alt="PERNAMBUCO COMPRESSORES Logo" 
