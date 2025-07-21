@@ -21,7 +21,7 @@ const CompressorAbout = () => {
     {
       icon: <Award className="w-8 h-8" />,
       title: "Melhores Fornecedores",
-      description: "Parcerias com os melhores fornecedores de peças do Brasil para garantir qualidade."
+      description: "Parcerias com os melhores fornecedores de peças do Brasil e do Mundo para garantir qualidade."
     }
   ];
 
