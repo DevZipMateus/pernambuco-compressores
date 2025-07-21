@@ -18,10 +18,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-10">
           <div>
             <h3 className="font-display font-bold text-xl mb-4">
-              Tech<span className="text-accent">Help</span>
+              PERNAMBUCO<span className="text-blue-300"> COMPRESSORES</span>
             </h3>
             <p className="text-white/80 mb-4 max-w-sm">
-              Transformamos problemas técnicos em soluções eficazes. Deixe-nos cuidar dos seus eletrônicos enquanto você foca no que realmente importa.
+              Especialistas em compressores de ar há mais de 20 anos. Oferecemos vendas, assistência técnica e manutenção com qualidade e confiança.
             </p>
           </div>
           
@@ -32,11 +32,11 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="#home" 
+                  href="#inicio" 
                   className="text-white/80 hover:text-white transition-colors duration-300"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection('home');
+                    scrollToSection('inicio');
                   }}
                 >
                   Início
@@ -44,23 +44,23 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#about" 
+                  href="#sobre" 
                   className="text-white/80 hover:text-white transition-colors duration-300"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection('about');
+                    scrollToSection('sobre');
                   }}
                 >
-                  Sobre Nós
+                  Sobre
                 </a>
               </li>
               <li>
                 <a 
-                  href="#services" 
+                  href="#servicos" 
                   className="text-white/80 hover:text-white transition-colors duration-300"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection('services');
+                    scrollToSection('servicos');
                   }}
                 >
                   Serviços
@@ -68,23 +68,47 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="#how-it-works" 
+                  href="#produtos" 
                   className="text-white/80 hover:text-white transition-colors duration-300"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection('how-it-works');
+                    scrollToSection('produtos');
                   }}
                 >
-                  Como Funciona
+                  Produtos
                 </a>
               </li>
               <li>
                 <a 
-                  href="#contact" 
+                  href="#depoimentos" 
                   className="text-white/80 hover:text-white transition-colors duration-300"
                   onClick={(e) => {
                     e.preventDefault();
-                    scrollToSection('contact');
+                    scrollToSection('depoimentos');
+                  }}
+                >
+                  Depoimentos
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#localizacao" 
+                  className="text-white/80 hover:text-white transition-colors duration-300"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('localizacao');
+                  }}
+                >
+                  Localização
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#contato" 
+                  className="text-white/80 hover:text-white transition-colors duration-300"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('contato');
                   }}
                 >
                   Contato
@@ -98,10 +122,11 @@ const Footer = () => {
               Contato
             </h3>
             <address className="not-italic text-white/80 space-y-2">
-              <p>Rua da Tecnologia, 123 - Centro</p>
-              <p>São Paulo - SP, 01234-567</p>
-              <p>+55 (11) 99988-7766</p>
-              <p>contato@techhelp.com.br</p>
+              <p>Rua dos Compressores, 456</p>
+              <p>Recife - PE, 52020-000</p>
+              <p>+55 (81) 3456-7890</p>
+              <p>+55 (81) 99876-5432</p>
+              <p>contato@pernambucocompressores.com.br</p>
             </address>
           </div>
         </div>
@@ -109,7 +134,7 @@ const Footer = () => {
         <hr className="border-white/20 mb-8" />
         
         <div className="text-center text-white/80 text-sm">
-          <p>&copy; {currentYear} TechHelp Soluções. Todos os direitos reservados.</p>
+          <p>&copy; {currentYear} Pernambuco Compressores. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
