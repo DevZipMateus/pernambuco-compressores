@@ -1,24 +1,32 @@
 import React from 'react';
 import { CheckCircle, Users, Wrench, Award } from 'lucide-react';
+
 const CompressorAbout = () => {
-  const features = [{
-    icon: <CheckCircle className="w-8 h-8" />,
-    title: "Organização Completa",
-    description: "Estrutura organizacional, física e operacional adequada para atender todas as demandas."
-  }, {
-    icon: <Users className="w-8 h-8" />,
-    title: "Profissionais Qualificados",
-    description: "Equipe especializada e equipes de retaguarda sempre prontas para atendimento."
-  }, {
-    icon: <Wrench className="w-8 h-8" />,
-    title: "Oficina Moderna",
-    description: "Equipamentos adequados para cada tipo de serviço e tecnologia de ponta."
-  }, {
-    icon: <Award className="w-8 h-8" />,
-    title: "Melhores Fornecedores",
-    description: "Parcerias com os melhores fornecedores de peças do Brasil e do Mundo para garantir qualidade."
-  }];
-  return <section id="sobre" className="py-20 bg-white">
+  const features = [
+    {
+      icon: <CheckCircle className="w-8 h-8" />,
+      title: "Organização Completa",
+      description: "Estrutura organizacional, física e operacional adequada para atender todas as demandas."
+    },
+    {
+      icon: <Users className="w-8 h-8" />,
+      title: "Profissionais Qualificados",
+      description: "Equipe especializada e equipes de retaguarda sempre prontas para atendimento."
+    },
+    {
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Oficina Moderna",
+      description: "Equipamentos adequados para cada tipo de serviço e tecnologia de ponta."
+    },
+    {
+      icon: <Award className="w-8 h-8" />,
+      title: "Melhores Fornecedores",
+      description: "Parcerias com os melhores fornecedores de peças do Brasil e do Mundo para garantir qualidade."
+    }
+  ];
+
+  return (
+    <section id="sobre" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           
@@ -64,8 +72,12 @@ const CompressorAbout = () => {
 
             {/* Image */}
             <div className="relative">
-              <div className="bg-compressor-light-gray rounded-lg p-8 text-center bg-[t#] bg-[#0a2e76]">
-                <img src="/lovable-uploads/221fca45-5716-4c15-a43e-d0fd56fe493a.png" alt="PERNAMBUCO COMPRESSORES Logo" className="mx-auto h-32 w-auto mb-4" />
+              <div className="bg-compressor-light-gray rounded-lg p-8 text-center">
+                <img 
+                  src="/lovable-uploads/221fca45-5716-4c15-a43e-d0fd56fe493a.png" 
+                  alt="PERNAMBUCO COMPRESSORES Logo" 
+                  className="mx-auto h-32 w-auto mb-4"
+                />
                 <div className="text-compressor-navy-blue font-bold text-xl">
                   ESPECIALISTA EM AR COMPRIMIDO
                 </div>
@@ -75,7 +87,11 @@ const CompressorAbout = () => {
 
           {/* Features Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.map((feature, index) => <div key={index} className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow duration-300 bg-compressor-light-gray/30">
+            {features.map((feature, index) => (
+              <div 
+                key={index}
+                className="text-center p-6 rounded-lg hover:shadow-lg transition-shadow duration-300 bg-compressor-light-gray/30"
+              >
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-compressor-navy-blue text-white rounded-full mb-4">
                   {feature.icon}
                 </div>
@@ -85,7 +101,8 @@ const CompressorAbout = () => {
                 <p className="text-compressor-gray text-sm leading-relaxed">
                   {feature.description}
                 </p>
-              </div>)}
+              </div>
+            ))}
           </div>
 
           {/* Brands */}
@@ -104,6 +121,8 @@ const CompressorAbout = () => {
 
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default CompressorAbout;
