@@ -15,7 +15,7 @@ const CompressorServices = () => {
     {
       icon: <ShoppingCart className="w-8 h-8" />,
       title: "Venda de Peças",
-      description: "Peças originais e compatíveis para todos os tipos de compressores, com garantia de qualidade e procedência.",
+      description: "Peças de qualidade e compatíveis para todos os tipos de compressores, com garantia de qualidade e procedência.",
       features: ["Peças originais", "Entrega rápida", "Compatibilidade garantida"]
     },
     {
