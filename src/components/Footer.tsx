@@ -21,7 +21,7 @@ const Footer = () => {
               PERNAMBUCO<span className="text-blue-300"> COMPRESSORES</span>
             </h3>
             <p className="text-white/80 mb-4 max-w-sm">
-              Especialistas em compressores de ar há mais de 20 anos. Oferecemos vendas, assistência técnica e manutenção com qualidade e confiança.
+              Especialistas em compressores de ar há mais de 10 anos. Oferecemos vendas, assistência técnica e manutenção com qualidade e confiança.
             </p>
           </div>
           
@@ -122,11 +122,10 @@ const Footer = () => {
               Contato
             </h3>
             <address className="not-italic text-white/80 space-y-2">
-              <p>Rua dos Compressores, 456</p>
-              <p>Recife - PE, 52020-000</p>
-              <p>+55 (81) 3456-7890</p>
-              <p>+55 (81) 99876-5432</p>
-              <p>contato@pernambucocompressores.com.br</p>
+              <p>Endereço: Rodovia BR 101 sul, km 78,6</p>
+              <p>Jaboatão dos Guararapes - PE</p>
+              <p>+55 (81) 98903-1791</p>
+              <p>gerencia@pecompressores.com.br</p>
             </address>
           </div>
         </div>
