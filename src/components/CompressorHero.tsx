@@ -90,9 +90,9 @@ const CompressorHero = () => {
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 opacity-0 leading-tight text-white"
             style={{ animationDelay: '400ms' }}
           >
-            ESPECIALISTA EM
+            ATENDER COM QUALIDADE
             <br />
-            <span className="text-white">AR COMPRIMIDO</span>
+            <span className="text-white">ESSE É O NOSSO OBJETIVO</span>
           </h1>
           
           {/* Subtítulo */}
