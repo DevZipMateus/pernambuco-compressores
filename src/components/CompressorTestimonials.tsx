@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Star, Quote } from 'lucide-react';
 
@@ -134,7 +135,7 @@ const CompressorTestimonials = () => {
               <div className="text-compressor-gray">Atendimento</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-compressor-navy-blue mb-2">15+</div>
+              <div className="text-3xl font-bold text-compressor-navy-blue mb-2">10+</div>
               <div className="text-compressor-gray">Anos de Experiência</div>
             </div>
           </div>

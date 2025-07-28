@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { ArrowDown, Phone, MessageCircle } from 'lucide-react';
 
@@ -136,7 +137,7 @@ const CompressorHero = () => {
             style={{ animationDelay: '1000ms' }}
           >
             <div className="text-center">
-              <div className="text-2xl font-bold text-white mb-2">+15</div>
+              <div className="text-2xl font-bold text-white mb-2">+10</div>
               <div className="text-white/80">Anos de Experiência</div>
             </div>
             <div className="text-center">
