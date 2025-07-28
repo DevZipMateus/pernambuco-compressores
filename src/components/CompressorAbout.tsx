@@ -1,24 +1,33 @@
+
 import React from 'react';
 import { CheckCircle, Users, Wrench, Award } from 'lucide-react';
+
 const CompressorAbout = () => {
-  const features = [{
-    icon: <CheckCircle className="w-8 h-8" />,
-    title: "Organização Completa",
-    description: "Estrutura organizacional, física e operacional adequada para atender todas as demandas."
-  }, {
-    icon: <Users className="w-8 h-8" />,
-    title: "Profissionais Qualificados",
-    description: "Equipe especializada e equipes de retaguarda sempre prontas para atendimento."
-  }, {
-    icon: <Wrench className="w-8 h-8" />,
-    title: "Oficina Moderna",
-    description: "Equipamentos adequados para cada tipo de serviço e tecnologia de ponta."
-  }, {
-    icon: <Award className="w-8 h-8" />,
-    title: "Melhores Fornecedores",
-    description: "Parcerias com os melhores fornecedores de peças do Brasil e do Mundo para garantir qualidade."
-  }];
-  return <section id="sobre" className="py-20 bg-white">
+  const features = [
+    {
+      icon: <CheckCircle className="w-8 h-8" />,
+      title: "Organização Completa",
+      description: "Estrutura organizacional, física e operacional adequada para atender todas as demandas."
+    },
+    {
+      icon: <Users className="w-8 h-8" />,
+      title: "Profissionais Qualificados",
+      description: "Equipe especializada e equipes de retaguarda sempre prontas para atendimento."
+    },
+    {
+      icon: <Wrench className="w-8 h-8" />,
+      title: "Oficina Moderna",
+      description: "Equipamentos adequados para cada tipo de serviço e tecnologia de ponta."
+    },
+    {
+      icon: <Award className="w-8 h-8" />,
+      title: "Melhores Fornecedores",
+      description: "Parcerias com os melhores fornecedores de peças do Brasil e do Mundo para garantir qualidade."
+    }
+  ];
+
+  return (
+    <section id="sobre" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           
@@ -65,8 +74,14 @@ const CompressorAbout = () => {
             {/* Image */}
             <div className="relative">
               <div className="rounded-lg p-8 text-center bg-black">
-                <img src="/lovable-uploads/221fca45-5716-4c15-a43e-d0fd56fe493a.png" alt="PERNAMBUCO COMPRESSORES Logo" className="mx-auto h-32 w-auto mb-4" />
-                
+                <img 
+                  src="/lovable-uploads/221fca45-5716-4c15-a43e-d0fd56fe493a.png" 
+                  alt="PERNAMBUCO COMPRESSORES Logo" 
+                  className="mx-auto h-32 w-auto mb-4" 
+                />
+                <div className="text-white font-bold text-lg tracking-wider">
+                  VENDAS - SERVICE - LOCAÇÃO
+                </div>
               </div>
             </div>
           </div>
@@ -102,6 +117,8 @@ const CompressorAbout = () => {
 
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default CompressorAbout;
