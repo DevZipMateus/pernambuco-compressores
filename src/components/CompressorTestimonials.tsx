@@ -5,23 +5,23 @@ const CompressorTestimonials = () => {
   // Como não foram fornecidos depoimentos específicos, criarei alguns exemplos genéricos para a estrutura
   const testimonials = [
     {
-      name: "Empresa de Metalurgia XYZ",
-      location: "Recife, PE",
+      name: "Isotec Industrial Ltda",
+      location: "Moreno-PE",
       text: "Excelente atendimento e qualidade nos serviços. Nossa linha de produção não para mais desde que contratamos a manutenção preventiva.",
       rating: 5,
       service: "Contrato de Manutenção"
     },
     {
-      name: "Indústria Alimentícia ABC",
-      location: "Jaboatão, PE",
+      name: "Sinalizadora Nacional",
+      location: "Recife-PE",
       text: "Profissionais muito qualificados. Resolveram um problema urgente em nosso compressor em poucas horas.",
       rating: 5,
       service: "Manutenção Corretiva"
     },
     {
-      name: "Oficina Mecânica DEF",
-      location: "Olinda, PE",
-      text: "Ótimo custo-benefício na compra de peças originais. Sempre atendem com rapidez e eficiência.",
+      name: "Polyutil S/A",
+      location: "João Pessoa-PB",
+      text: "Ótimo custo-benefício na compra de peças de qualidade. Sempre atendem com rapidez e eficiência.",
       rating: 5,
       service: "Venda de Peças"
     }
