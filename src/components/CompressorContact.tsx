@@ -1,9 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
-
 const CompressorContact = () => {
-  return (
-    <section id="contato" className="py-20 bg-white">
+  return <section id="contato" className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           
@@ -23,7 +21,7 @@ const CompressorContact = () => {
                 <Phone className="w-8 h-8" />
               </div>
               <h3 className="text-lg font-semibold text-compressor-navy-blue mb-2">Telefone</h3>
-              <p className="text-compressor-gray">(81) 3125-1484</p>
+              <p className="text-compressor-gray">(81) 98903-1791</p>
             </div>
             
             <div className="text-center p-6 bg-compressor-light-gray/30 rounded-lg">
@@ -53,8 +51,6 @@ const CompressorContact = () => {
 
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CompressorContact;
